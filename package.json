@@ -2,7 +2,6 @@
   "name": "jsdom-hover",
   "version": "1.0.0",
   "description": "testing case for hover styles in jsdom",
-  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
