@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "testing case for hover styles in jsdom",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel",
+    "build": "parcel build",
+    "test": "node ./src/test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jsdom": "^22.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.9.3"
   }
 }
